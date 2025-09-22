@@ -3,11 +3,11 @@
 body {
   font-family: "Cabin", Arial, sans-serif;
   color: #ffffff;
-  background-color: #108a93;
+  background-color: burlywood;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster', 'Times New Roman', Times, serif;
 }
 
 .navbar {
@@ -31,7 +31,7 @@ h1 small {
 }
 
 .card {
-  background-color: #469ea8;
+  background-color: rgb(177, 175, 175);
 }
 
 .card-primary {
@@ -40,7 +40,7 @@ h1 small {
 }
 
 .review-header {
-  background-color: #31727a;
+  background-color: #ad1d28;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   margin-bottom: 0.5em;
@@ -58,13 +58,13 @@ h1 small {
 }
 
 h4 a, h4 a:hover {
-  color: #fff;
+  color: #de8181;
 }
 
 h4 small {
   font-size: 60%;
   line-height: 200%;
-  color: #aaa;
+  color: #de8181;
 }
 
 .address {
@@ -72,9 +72,34 @@ h4 small {
 }
 
 .facilities span.badge {
-  margin-right:2px;
+  margin-right: 2px;
 }
 
 legend {
   font-family: 'Lobster', cursive;
+}
+
+
+
+form {
+  background-color: rgba(173, 29, 40, 0.8); /* Semi-transparent background for forms */
+  padding: 2em; /* Padding around the form elements */
+  border-radius: 5px; /* Rounded corners for forms */
+}
+
+.form-group label {
+  color: #de8181; /* Change label color for better visibility */
+}
+
+.btn-primary {
+  width: 100%; /* Full-width buttons */
+  padding: 0.75em; /* Increased padding for buttons */
+}
+
+a {
+  color: #de8181; /* Consistent link color */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover for better UX */
 }
